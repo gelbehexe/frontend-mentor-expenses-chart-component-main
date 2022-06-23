@@ -6,7 +6,7 @@
 @include DMSans.fontFace($weight: $font-weight-bold);
 
 html, body {
-    font-family: "#{$font-family-sans}", "system-ui", sans-serif;
+    font-family: "#{$font-family-sans}", system-ui, sans-serif;
 }
 
 html {

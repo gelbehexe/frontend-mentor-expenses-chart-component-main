@@ -18,6 +18,9 @@
             {
                 "ignoreKeywords": ["optimizeSpeed"]
             }
-        ]
+        ],
+        "declaration-block-no-redundant-longhand-properties": [true, {
+            "ignoreShorthands": ["transition"]
+        }]
     }
 }

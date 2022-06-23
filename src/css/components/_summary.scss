@@ -1,16 +1,13 @@
 @use "../abstract/mixins" as *;
 
 .summary {
-
     border-top: 2px solid var(--clr-neutral-2);
     margin-inline: var(--body-wrapper-inner-padding-inline);
     padding-block: var(--summary-padding-block);
-
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-flow: column;
     align-items: end;
-
     line-height: 1;
 
     &__label, &__amount {
@@ -44,12 +41,8 @@
         text-align: end;
         align-self: end;
     }
+
     &__relative &__amount {
         font-size: inherit;
-    }
-}
-
-.summary {
-    &__relative {
     }
 }

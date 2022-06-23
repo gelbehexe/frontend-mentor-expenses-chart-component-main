@@ -49,7 +49,7 @@
     --summary-relative-gap: 4px;
     --summary-relative-padding-block-end: 0;
 
-    @include media-desktop() {
+    @include media-desktop {
         // font
         --font-size-default: 1.125rem;
         --font-size-summary-amount: 3rem;

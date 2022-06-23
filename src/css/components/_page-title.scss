@@ -1,11 +1,13 @@
 .page-title {
     display: grid;
     gap: var(--page-title-gap);
+
     &__label, &__amount {
         line-height: 1;
         color: var(--clr-neutral-4);
         font-weight: var(--font-weight-bold);
     }
+
     &__label {
         margin: 0;
         padding: 0;
