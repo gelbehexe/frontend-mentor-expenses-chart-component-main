@@ -1,5 +1,7 @@
 # Frontend Mentor - Expenses chart component solution
 
+[![Code Quality Check](https://github.com/gelbehexe/frontend-mentor-expenses-chart-component-main/actions/workflows/code-quality-check.yml/badge.svg)](https://github.com/gelbehexe/frontend-mentor-expenses-chart-component-main/actions/workflows/code-quality-check.yml)
+
 This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -14,7 +16,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
