@@ -1,0 +1,82 @@
+@use "sass:color";
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
+
+:root {
+    // font
+    --font-size-base: 16px;
+    --font-size-default: 1rem;
+    --font-size-summary-amount: 1.9rem;
+    --font-size-title: 1.5rem;
+    --font-size-dayname: 0.75rem;
+    --font-weight-normal: #{$font-weight-normal};
+    --font-weight-bold: #{$font-weight-bold};
+
+    // colors
+    // -primary
+    --clr-primary-1: #{$clr-primary-1};
+    --clr-primary-2: #{$clr-primary-2};
+
+    // -neutral
+    --clr-neutral-1: #{$clr-neutral-1};
+    --clr-neutral-2: #{$clr-neutral-2};
+    --clr-neutral-3: #{$clr-neutral-3};
+    --clr-neutral-4: #{$clr-neutral-4};
+
+    // -attribution
+    --clr-attribution-bg: var(--clr-neutral-4);
+    --clr-attribution-fg: var(--clr-neutral-1);
+
+    // border-radius
+    --border-radius-sm: 3px;
+    --border-radius-md: 6px;
+    --border-radius-lg: 12px;
+
+    // logo
+    --logo-transform: scale(0.84) translate(-5px, 1px);
+
+    // spaces
+    --container-padding-inline: 1.1875rem;
+    --page-title-gap: 10px;
+    --header-padding-block: 22px 25px;
+    --wrapper-gap: 15px;
+    --body-wrapper-padding-block: 29px 24px;
+    --body-wrapper-inner-padding-inline: 0;
+    --graph-margin-block: 56px 50px;
+    --graph-gap: 12px;
+    --summary-padding-block: 3px 2px;
+    --summary-relative-gap: 4px;
+    --summary-relative-padding-block-end: 0;
+
+    @include media-desktop() {
+        // font
+        --font-size-default: 1.125rem;
+        --font-size-summary-amount: 3rem;
+        --font-size-title: 2rem;
+        --font-size-dayname: 0.9375rem;
+
+        // border-radius
+        --border-radius-sm: 6px;
+        --border-radius-md: 7px;
+        --border-radius-lg: 20px;
+
+        // logo
+        --logo-transform: scale(1) translate(-6px, 1px);
+
+        // spaces
+        --container-padding-inline: 2rem;
+        --page-title-gap: 14px;
+        --header-padding-block: 30px 30px;
+        --wrapper-gap: 25px;
+        --body-wrapper-padding-block: 37px 24px;
+        --body-wrapper-inner-padding-inline: 8px;
+        --graph-margin-block: 71px 60px;
+        --graph-gap: 18px;
+        --summary-padding-block: 12px 21px;;
+        --summary-relative-gap: 6px;
+        --summary-relative-padding-block-end: 6px;
+    }
+}
+
+

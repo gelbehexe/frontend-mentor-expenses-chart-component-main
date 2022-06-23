@@ -1,0 +1,32 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+@use "~@fontsource/dm-sans/scss/mixins" as DMSans;
+
+@include DMSans.fontFace($weight: $font-weight-normal);
+@include DMSans.fontFace($weight: $font-weight-bold);
+
+html, body {
+    font-family: "#{$font-family-sans}", "system-ui", sans-serif;
+}
+
+html {
+    font-size: var(--font-size-base);
+}
+
+body {
+    font-size: var(--font-size-default);
+    font-weight: var(--font-weight-normal);
+}
+
+a[href] {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover, &:active {
+        opacity: 0.7;
+    }
+}
+
+.sr-only {
+    @include visually-hidden;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require("./assets/images/favicon-32x32.png") %>">
+    <title><%= // noinspection JSUnresolvedVariable
+        htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header container rounded-lg">
+        <div class="page-title">
+            <h1 class="page-title__label">My balance</h1>
+            <p class="page-title__amount">$921.48</p>
+        </div>
+        <img class="logo" src="<%= require("./assets/images/logo.svg") %>" width="72" height="48" alt="" />
+    </header>
+
+    <div class="body-wrapper container rounded-lg">
+        <main class="main">
+            <h2 class="body-title">Spending - Last 7 days</h2>
+            <div class="graph">
+                    <div class="graph__day" data-label="mon" data-value="$17.45"><div class="rounded-sm"></div></div>
+                    <div class="graph__day" data-label="tue" data-value="$34.91"><div class="rounded-sm"></div></div>
+                    <div class="graph__day" data-label="wed" data-value="$52.36"><div class="rounded-sm"></div></div>
+                    <div class="graph__day" data-label="thu" data-value="$31.07"><div class="rounded-sm"></div></div>
+                    <div class="graph__day" data-label="fri" data-value="$23.39"><div class="rounded-sm"></div></div>
+                    <div class="graph__day" data-label="sat" data-value="$43.28"><div class="rounded-sm"></div></div>
+                    <div class="graph__day" data-label="sun" data-value="$25.48"><div class="rounded-sm"></div></div>
+            </div>
+
+        </main>
+
+        <footer class="summary">
+            <div class="summary__total">
+                <div class="summary__label">Total this month</div>
+                <div class="summary__amount">$478.33</div>
+            </div>
+            <div class="summary__relative">
+                <div class="summary__amount">+2.4%</div>
+                <div class="summary__label">from last month</div>
+            </div>
+        </footer>
+    </div>
+</div>
+<div class="attribution">
+    <div class="attribution__content">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="<%=
+        // noinspection JSUnresolvedVariable
+        user.web %>"><%= // noinspection JSUnresolvedVariable
+            user.name %></a> - Sourcecode at <a href="<%= // noinspection JSUnresolvedVariable
+        sourceCode %>">GitHub</a> - Last Build: <%= // noinspection JSUnresolvedVariable
+        build_time %>.
+    </div>
+</div>
+</body>
+</html>

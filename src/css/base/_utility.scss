@@ -1,0 +1,13 @@
+.container {
+    padding-inline: var(--container-padding-inline);
+    width: 100%;
+    max-width: 540px;
+    margin-inline: auto;
+}
+
+.rounded-sm {
+    border-radius: var(--border-radius-sm);
+}
+.rounded-lg {
+    border-radius: var(--border-radius-lg);
+}

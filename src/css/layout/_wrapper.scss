@@ -1,0 +1,13 @@
+@use "../abstract/mixins" as *;
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    padding-block: 16px calc(var(--attribution-height, 16px) + 16px) ;
+    padding-inline: 16px;
+    display: flex;
+    gap: var(--wrapper-gap);
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
