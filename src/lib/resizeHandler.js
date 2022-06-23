@@ -10,7 +10,6 @@ export default function resizeHandler() {
 
     const updateAttributionHeight = function () {
         const height = Math.ceil(attributionEl.getBoundingClientRect().height);
-        console.log("height", height);
         document.documentElement.style.setProperty(
             "--attribution-height",
             `${height}px`
@@ -20,11 +19,7 @@ export default function resizeHandler() {
     const resizeObserver = new ResizeObserver((entries) => {
         for (const entry of entries) {
             if (entry.target === attributionEl) {
-                // console.log("ResizeObserver with entry ", entry);
-                debounce(
-                    () => updateAttributionHeight()
-                    // console.log("ResizeObserver with entry debounced", entry)
-                );
+                debounce(() => updateAttributionHeight());
             }
         }
     });

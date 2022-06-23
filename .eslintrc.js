@@ -12,5 +12,6 @@ module.exports = {
     rules: {
         "indent": "off",
         "linebreak-style": 0,
+        "no-console": ["error", { allow: ["warn", "error"] }],
     },
 };
