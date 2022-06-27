@@ -1,6 +1,7 @@
 # Frontend Mentor - Expenses chart component solution
 
 [![Code Quality Check](https://github.com/gelbehexe/frontend-mentor-expenses-chart-component-main/actions/workflows/code-quality-check.yml/badge.svg)](https://github.com/gelbehexe/frontend-mentor-expenses-chart-component-main/actions/workflows/code-quality-check.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5f4f6064-8637-4c8e-a99b-719e0c65d929/deploy-status)](https://app.netlify.com/sites/fm-expenses-chart-gelbehexe/deploys)
 
 This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
