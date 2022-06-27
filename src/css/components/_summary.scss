@@ -1,7 +1,7 @@
 @use "../abstract/mixins" as *;
 
 .summary {
-    border-top: 2px solid var(--clr-neutral-2);
+    border-top: 2px solid var(--clr-neutral-3);
     margin-inline: var(--body-wrapper-inner-padding-inline);
     padding-block: var(--summary-padding-block);
     display: grid;
@@ -23,6 +23,7 @@
     &__amount {
         font-size: var(--font-size-summary-amount);
         font-weight: var(--font-weight-bold);
+        color: var(--clr-neutral-1);
     }
 
     &__total, &__relative {
