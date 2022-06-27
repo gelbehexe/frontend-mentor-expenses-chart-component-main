@@ -1,0 +1,8 @@
+// Do not make svg clickable themself (problems with click events)
+svg {
+    pointer-events: none;
+
+    button:not([disabled]) &, a[href] & {
+        cursor: pointer;
+    }
+}
