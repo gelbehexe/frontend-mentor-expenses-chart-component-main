@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source code on GitHub](https://github.com/gelbehexe/frontend-mentor-expenses-chart-component-main)
-- Live Site URL: [My live page on a server](https://frontend-mentor-expenses-chart-component-main-gelbehexe.netlify.app/)
+- Live Site URL: [My live page on a server](https://fm-expenses-chart-gelbehexe.netlify.app/)
 
 ## My process
 
