@@ -4,6 +4,7 @@ export default function resizeHandler() {
     const attributionEl = document.querySelector(".attribution");
     if (!attributionEl) {
         console.warn(".attribution element not found");
+        return;
     }
 
     const debounce = useDebounce();
